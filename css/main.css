@@ -1089,12 +1089,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 1160px;
+    width: 65em;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 73%;
+    width: 65%;
   }
 }
 .site-brand-container {
@@ -1268,6 +1268,10 @@ pre code {
   max-width: 120px;
   padding: 2px;
   border-radius: 50%;
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -1532,12 +1536,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 1160px;
+    width: 65em;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 73%;
+    width: 65%;
   }
 }
 .use-motion .footer {
@@ -1814,12 +1818,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .post-body {
-    text-align: justify;
+    text-align: left;
   }
 }
 @media (max-width: 991px) {
   .post-body {
-    text-align: justify;
+    text-align: left;
   }
 }
 .post-body h1 .header-anchor,
@@ -2520,12 +2524,12 @@ mark.search-keyword {
 }
 @media (min-width: 1200px) {
   .main {
-    width: 1160px;
+    width: 65em;
   }
 }
 @media (min-width: 1600px) {
   .main {
-    width: 73%;
+    width: 65%;
   }
 }
 @media (max-width: 991px) {
@@ -2553,48 +2557,6 @@ mark.search-keyword {
     padding-left: 0;
     padding-right: 0;
     width: auto;
-  }
-}
-header {
-  width: 90% !important;
-}
-header.post-header {
-  width: auto !important;
-}
-.container .main-inner {
-  width: 90%;
-}
-.content-wrap {
-  width: cakc(-160%);
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header {
-    width: auto !important;
-  }
-}
-@media (max-width: 767px) {
-  .header {
-    width: auto !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .container .main-inner {
-    width: auto !important;
-  }
-}
-@media (max-width: 767px) {
-  .container .main-inner {
-    width: auto !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .container-wrap {
-    width: 100% !important;
-  }
-}
-@media (max-width: 767px) {
-  .container-wrap {
-    width: 100% !important;
   }
 }
 .site-brand-container {
@@ -2849,4 +2811,7 @@ header.post-header {
   .comments {
     padding: 10px 12px;
   }
+}
+.archive .collection-title {
+  display: none !important;
 }

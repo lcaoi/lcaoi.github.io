@@ -22,10 +22,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Testing</title>
-    <url>/post/61063/</url>
-    <content><![CDATA[<h1 id="Test-Page"><a href="#Test-Page" class="headerlink" title="Test Page"></a>Test Page</h1><h2 id="1234"><a href="#1234" class="headerlink" title="1234"></a>1234</h2><h3 id="1234-1"><a href="#1234-1" class="headerlink" title="1234"></a>1234</h3><h4 id="1234-2"><a href="#1234-2" class="headerlink" title="1234"></a>1234</h4><span id="more"></span>
-<hr>
+    <title>pip install syntax error</title>
+    <url>/post/59166/</url>
+    <content><![CDATA[<hr>
+<p>Syntax error was given when using the following line in Pycharm:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install tweepy</span><br></pre></td></tr></table></figure>
+
+<p>The line “pip install” should be written in the <strong>Terminal</strong> part, which could be found at the bottom bar of Pycharm.</p>
 ]]></content>
       <categories>
         <category>Notes</category>
