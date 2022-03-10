@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hades Cheat Code</title>
+    <url>/post/27998/</url>
+    <content><![CDATA[<hr>
+<p>This cheat code is for achieving “invincibility mode” (kind of) in the game Hades. Instead of making Zagreus immune to the enemies’ attacks, a <strong>Lifesteal</strong> feature is add to the keepsakes.</p>
+<span id="more"></span>
+<br>
+
+<p> Open your Steam and follow these steps:</p>
+<ol>
+<li>Click the <code>Library</code> tab on the top bar</li>
+<li>Right-click on the game <code>Hades</code></li>
+<li>Select <code>Properties</code></li>
+<li>A window will be opened and select the <code>Local Files</code> tab</li>
+<li>Click the <code>Browse Local Files...</code> button</li>
+</ol>
+<p>Then, in the folder of Hades, choose this path: <code>Content\Scripts\TraitData.lua</code>. Open this file with Notepad++, <code>Ctrl+F</code> and search for <code>GiftTrait =</code>.</p>
+<br>
+
+<p>The cheat code will be added after this part:</p>
+<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">RarityLevels =</span></span><br><span class="line"><span class="language-xml"></span><span class="template-variable">&#123;</span></span><br><span class="line"><span class="template-variable">    ...</span></span><br><span class="line"><span class="template-variable">&#125;</span><span class="language-xml">,</span></span><br></pre></td></tr></table></figure>
+<p>Here is the code we need to add:</p>
+<figure class="highlight nix"><table><tr><td class="code"><pre><span class="line"><span class="attr">AddOutgoingLifestealModifiers</span> = </span><br><span class="line">&#123;</span><br><span class="line">	<span class="attr">ValidWeapons</span> = &#123;<span class="string">&quot;SwordWeaponDash&quot;</span>, <span class="string">&quot;SwordWeapon&quot;</span>, <span class="string">&quot;SwordWeapon2&quot;</span>, <span class="string">&quot;SwordWeapon3&quot;</span>,<span class="string">&quot;SwordParry&quot;</span>,</span><br><span class="line">					<span class="string">&quot;FistWeapon&quot;</span>, <span class="string">&quot;FistWeapon2&quot;</span>, <span class="string">&quot;FistWeapon3&quot;</span>, <span class="string">&quot;FistWeapon4&quot;</span>, <span class="string">&quot;FistWeapon5&quot;</span>, <span class="string">&quot;FistWeaponDash&quot;</span>, <span class="string">&quot;FistWeaponSpecial&quot;</span>, <span class="string">&quot;FistWeaponSpecialDash&quot;</span>,</span><br><span class="line">					<span class="string">&quot;GunInfiniteAmmoTrait&quot;</span>, <span class="string">&quot;GunShotgunTrait&quot;</span>, <span class="string">&quot;GunSniperTrait&quot;</span>, <span class="string">&quot;GunWeapon&quot;</span>,<span class="string">&quot;GunWeaponDash&quot;</span>, <span class="string">&quot;GunGrenadeToss&quot;</span>,</span><br><span class="line">					<span class="string">&quot;SpearWeapon&quot;</span>,<span class="string">&quot;SpearWeapon2&quot;</span>, <span class="string">&quot;SpearWeapon3&quot;</span>, <span class="string">&quot;SpearWeaponDash&quot;</span>,<span class="string">&quot;SpearWeaponSpin&quot;</span>,<span class="string">&quot;SpearWeaponSpin2&quot;</span>,<span class="string">&quot;SpearWeaponSpin3&quot;</span>, <span class="string">&quot;SpearWeaponThrow&quot;</span>,<span class="string">&quot;SpearWeaponThrowReturn&quot;</span>, <span class="string">&quot;SpearRushWeapon&quot;</span>,</span><br><span class="line">					<span class="string">&quot;BowWeapon&quot;</span>,<span class="string">&quot;BowWeaponDash&quot;</span>, <span class="string">&quot;BowSplitShot&quot;</span>,</span><br><span class="line">					<span class="string">&quot;ShieldWeapon&quot;</span>,<span class="string">&quot;ShieldWeaponDash&quot;</span>,<span class="string">&quot;ShieldWeaponRush&quot;</span>, <span class="string">&quot;ShieldThrow&quot;</span>,</span><br><span class="line">					<span class="string">&quot;ChaosShieldThrow&quot;</span>,<span class="string">&quot;ZeusAmmoWeapon&quot;</span>,<span class="string">&quot;ArtemisAmmoWeapon&quot;</span>,<span class="string">&quot;DionysusAmmoWeapon&quot;</span>,&#125;,</span><br><span class="line">	<span class="attr">ValidMultiplier</span> = <span class="number">0.05</span>,</span><br><span class="line">	<span class="attr">MaxLifesteal</span> = <span class="number">2</span>,</span><br><span class="line">	<span class="attr">MinLifesteal</span> = <span class="number">2</span>,</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<p>From now on, whenever Zagreus is equipped with a keepsake, he can gain HP by attacking enemies.</p>
+]]></content>
+      <categories>
+        <category>Miscellaneous</category>
+      </categories>
+  </entry>
+  <entry>
     <title>pip install syntax error</title>
     <url>/post/59166/</url>
     <content><![CDATA[<hr>
